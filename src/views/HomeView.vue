@@ -20,12 +20,17 @@ const openUrl = (url) => {
     <span>{{ user.job }}</span>
     <span>{{ user.company }}</span>
   </header>
-  <main class="grid grid-cols-2 gap-3">
-    <Icon width="50px" icon="skill-icons:instagram" @click="openUrl(user.instagram)" />
-    <Icon width="50px" icon="logos:whatsapp-icon" @click="openUrl(user.whatsapp)" />
-    <Icon width="50px" icon="devicon:linkedin" @click="openUrl(user.linkedin)" />
-    <Icon width="50px" icon="logos:telegram" @click="openUrl(user.telegram)" />
-    <Icon width="50px" icon="logos:tiktok-icon" @click="openUrl(user.tiktok)" />
-    <Icon width="50px" icon="logos:x" @click="openUrl(user.x)" />
+  <main class="grid grid-cols-2 gap-3 justify-items-center">
+    <Icon
+      class="center"
+      width="40px"
+      icon="skill-icons:instagram"
+      @click="openUrl(user.instagram)"
+    />
+    <Icon width="40px" icon="logos:whatsapp-icon" @click="openUrl(user.whatsapp)" />
+    <Icon width="40px" icon="devicon:linkedin" @click="openUrl(user.linkedin)" />
+    <Icon width="40px" icon="logos:telegram" @click="openUrl(user.telegram)" />
+    <Icon width="40px" icon="logos:tiktok-icon" @click="openUrl(user.tiktok)" />
+    <Icon width="40px" icon="logos:x" @click="openUrl(user.x)" />
   </main>
 </template>
