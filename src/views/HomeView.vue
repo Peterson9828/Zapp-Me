@@ -16,6 +16,7 @@ const openUrl = (url) => {
 <template>
   <header class="flex justify-center flex-col items-center mb-5">
     <img class="w-20 rounded-full" :src="user.avatar" alt="Rounded avatar" />
+    <span>{{ user.name }}</span>
     <span>{{ user.job }}</span>
     <span>{{ user.company }}</span>
   </header>
