@@ -3,13 +3,13 @@ import { getFirestore } from 'firebase/firestore'
 import { getAuth } from 'firebase/auth'
 import { getStorage } from 'firebase/storage'
 const config = {
-  apiKey: 'AIzaSyDUXFhQuYMj3UJxNiCVw6v0Man59h4QCCQ',
-  authDomain: 'zappme-c489a.firebaseapp.com',
-  projectId: 'zappme-c489a',
-  storageBucket: 'zappme-c489a.firebasestorage.app',
-  messagingSenderId: '1043230845067',
-  appId: '1:1043230845067:web:65f3fb11de5d0ce1b20c8e',
-  measurementId: 'G-YEH9G4QCBN',
+  apiKey: 'AIzaSyAMXyNDdG9DWPRLaz611oIPBrinPuaF9nY',
+  authDomain: 'zappme-prod.firebaseapp.com',
+  projectId: 'zappme-prod',
+  storageBucket: 'zappme-prod.firebasestorage.app',
+  messagingSenderId: '405488303648',
+  appId: '1:405488303648:web:784dfe53d7727c638b8645',
+  measurementId: 'G-QDNZTE7HQC',
 }
 export function initialize() {
   const firebaseApp = initializeApp(config)
